@@ -1,0 +1,406 @@
+/* Gretna Theme */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700%7CWork+Sans');
+
+
+@import url('owl.css');
+@import url('font-awesome.css');
+@import url('custom-animate.css');
+
+
+
+
+
+
+
+
+
+
+/*=================     main header style  ==================*/
+
+.main-header {
+	position: relative;
+	padding: 0 90px;
+}
+
+.main-header .logo {
+	margin: 20px 0;
+	width: 60px;
+	height: 60px;
+}
+
+.main-header ul li {
+	margin: 42px 24px;
+	display: inline-block;
+}
+
+.main-header ul li a {
+	color: #222;
+	font-size: 16px;
+	font-weight:  600;
+}
+
+.main-header .menu,
+.main-header .link-btn {
+	display: inline-block;
+}
+
+.main-header .link-btn .btn-style-one {
+	margin-left: 75px;
+	background: #febf4d;
+	border-color: #febf4d;
+}
+
+.main-header .link-btn .btn-style-one:hover {
+	border-color: #222;
+	background-color: #222;
+}
+
+/*========== responsive =========*/
+
+@media only screen and (max-width: 1300px) {
+	.main-header {
+	    padding: 0 20px;
+	}
+	.main-header ul li {
+	    margin: 42px 10px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.main-header .pull-left,
+	.main-header .pull-right {
+	    float: inherit!important;
+	}
+	.main-header ul li {
+	    margin: 30px 10px;
+	}
+	.main-header .logo {
+	    margin: 20px 0 0;
+	    text-align: center;
+	}
+	.main-header .link-btn .btn-style-one {
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.main-header ul {
+		text-align: center;
+	}
+	.main-header ul li {
+	    margin: 30px 10px 0;
+	}
+	.main-header .link-btn {
+	    text-align: center;
+	    display: block;
+	    margin: 30px 0px;
+	}
+	.main-header .link-btn .btn-style-one {
+		margin-left: 0px;
+	}
+
+}
+
+
+
+/*=================     banner style  ==================*/
+
+
+.banner {
+	position: relative;
+	text-align: center;
+	padding: 175px 0;
+	overflow: hidden;
+}
+
+.banner .box {
+	position: absolute;
+}
+
+.banner h2 {
+	color: #fff;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 100px;
+	text-transform: capitalize;
+}
+
+.banner .theme-btn {
+	line-height: 29px;
+}
+
+.banner .theme-btn:hover {
+	background: #222;
+	color: #fff;
+}
+
+.banner .parallax-container {
+	top: 0;
+	left: 0;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner .slide1 {
+	display: block;
+	position: absolute;
+	left: 55px;
+}
+
+.banner .slide2 {
+	display: block;
+	position: absolute;
+	right: 300px;
+	top: 100px;
+}
+
+.banner .slide3 {
+	display: block;
+	position: absolute;
+	right: 55px;
+	bottom: 100px;
+}
+
+.banner .slide4 {
+	display: block;
+	position: absolute;
+	top: 50px;
+}
+
+.banner .slide5 {
+	display: block;
+	position: absolute;
+}
+
+
+
+/* main demo */
+
+.main-demo {
+	position: relative;
+	padding: 100px 0;
+}
+
+.main-demo .image {
+	position: relative;
+	margin: 15px;
+	box-shadow: 0px 7px 30px 0px rgba(0, 0, 0, 0.1);
+	padding: 15px;
+	background-repeat:  no-repeat;
+	background-size:  cover;
+	background-color: #F5F5F5;
+	background-position: top center;
+}
+.main-demo .image .photo-project{
+
+
+	
+}
+
+.main-demo .image:hover {background-position:  bottom center;}
+
+.main-demo .image a {
+	height: 480px;
+	background: none;
+    display: block;
+}
+
+.main-demo h3 {
+	position: relative;
+	font-size: 16px;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 65px;
+}
+
+.main-demo h3:hover {
+	color: #dc013b;
+}
+
+.main-demo h3 a {
+	color: inherit;
+}
+
+/* feature */
+
+.feature {
+	position: relative;
+	background-color: #f7f7f7;
+	padding-top: 160px;
+	background-position:  center;
+}
+
+.feature-block {
+	margin-bottom: 100px;
+}
+
+.feature-block h4 {
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+
+/* feature icon */
+
+.feature-icon {
+	position: relative;
+	background-color: #f9f3e9;
+	padding-top: 120px;
+	padding-bottom: 40px;
+	background-position:  center;
+}
+
+.feature-block-two {
+	position: relative;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.feature-block-two .image {
+	min-height: 95px;
+}
+
+.feature-block-two h4 {
+	font-weight: 700;
+	margin-bottom: 20px;
+}
+
+/* portfolio */
+
+.portfolio {
+	position: relative;
+	padding: 160px 0 130px;
+}
+
+.portfolio .image {
+	position: relative;
+	box-shadow: 0px 5px 35px 0px rgba(4, 4, 4, 0.07);
+	margin-bottom: 90px;
+}
+
+.portfolio .owl-carousel .owl-stage-outer {
+	overflow: visible;
+}
+
+/* header style */
+
+.header-style {
+	position: relative;
+	padding: 160px 0 130px;
+	background: #f6f6f6;
+}
+
+.header-style .image {
+	position: relative;
+	box-shadow: 0px 5px 35px 0px rgba(4, 4, 4, 0.07);
+	margin-bottom: 90px;
+}
+
+/* feature-image */
+
+.feature-image {
+	position: relative;
+	padding: 139px 0 594px;
+	background-position: center;
+	background-color: #242424;
+	background-repeat:  no-repeat;
+}
+
+/* shop */
+
+.shop {
+	position: relative;
+	padding: 280px 0 800px;
+	background-position: center;
+	background-color: #242424;
+	background-repeat:  no-repeat;
+}
+
+.shop-content h1 {
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 70px;
+}
+
+.shop-content h4 {
+	font-size: 16px;
+	color: #e54761;
+	margin-bottom: 20px;
+}
+
+/* core feature */
+
+.core-feature {
+	position: relative;
+	padding: 160px 0 90px;
+	background-position: center;
+	background-color: #f6f6f6;
+	background-repeat:  no-repeat;
+	text-align: center;
+}
+
+.core-feature h5 {
+	font-size: 12px;
+	font-weight: 700;
+	margin: 30px 0 50px;
+}
+
+@media only screen and (min-width: 992px){
+	.core-feature .col-md-2 {
+		width: 20%;
+	}
+}
+
+
+
+
+/*=================     footer style  ==================*/
+
+
+.footer {
+	position: relative;
+	text-align: center;
+	padding: 206px 0;
+	overflow: hidden;
+	background-position:  center;
+	background-repeat:  no-repeat;
+}
+
+.footer .overlay {
+	position: absolute;
+	top: 60px;
+	left: 100px;
+}
+
+.footer h2 {
+	color: #fff;
+	font-weight: 400;
+	font-size: 60px;
+	line-height: 80px;
+	text-transform: capitalize;
+}
+
+.footer .link-btn .btn-style-one {
+	margin-left: 75px;
+	background: #febf4d;
+	border-color: #febf4d;
+}
+
+.footer .link-btn .btn-style-one:hover {
+	border-color: #222;
+	background-color: #222;
+}
+
+.footer .text {
+	color: #fff;
+	margin-bottom: 30px;
+}
+
