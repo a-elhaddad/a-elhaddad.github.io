@@ -73,6 +73,11 @@ h6 {
 	color: #242424;
 }
 
+.tab { 
+	display:inline-block; 
+	margin-left: 40px; 
+}
+
 input,
 button,
 select,
